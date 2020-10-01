@@ -1,3 +1,5 @@
+#This program is about guessing a number within 10 tries.
+
 import random
 v = random.randint(0,100)
 
