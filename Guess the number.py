@@ -6,7 +6,7 @@ a = 0
 b = 10
 while n != v:
     if a > 9:
-        print("Game over")
+        print("Game over")   #TRY AGAIN...!!
         break
     if n > v:
         print("Your number is greater than the original number.")
