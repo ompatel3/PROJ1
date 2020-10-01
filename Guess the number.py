@@ -1,6 +1,6 @@
 import random
 v = random.randint(0,100)
-
+#select integer between 1 to 100
 n = int(input("Guess the number : "))
 a = 0
 b = 10
@@ -16,6 +16,6 @@ while n != v:
     a = a +1
     print ("Try left  " + str(b - a))
     if n == v:
-        print("You won!")
+        print("Congratulation You won!")
         break
     continue
